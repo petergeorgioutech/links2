@@ -11,7 +11,6 @@ export default {
     './App.{js,ts,vue}',
     './app.{js,ts,vue}'
   ],
-  darkMode: 'class',
   theme: {
     extend: {}
   },
