@@ -12,7 +12,7 @@ export default defineNuxtConfig({
   experimental: {
     reactivityTransform: true
   },
-  css: ['~/assets/css/tailwind.css'],
+  css: ['~/assets/css/tailwind.css', '@/assets/scss/global.scss'],
   postcss: {
     plugins: {
       tailwindcss: {},
@@ -24,6 +24,15 @@ export default defineNuxtConfig({
   },
   headlessui: {
     prefix: ''
+  },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          additionalData: '@use "@/assets/scss/_vars.scss" as *; @use "@/assets/scss/_media.scss" as *;'
+        }
+      }
+    }
   },
   devtools: true
 })
