@@ -1,9 +1,154 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
-body{
-    font-family: "Lato", sans-serif;
-    color:$primary;
-    @include for-desktop-up {
-      color:red;
+@import "modules/utilities";
+@import "modules/typography";
+
+body{    
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background:{
+      image:url(https://cdn.beacons.ai/user_content/jnule9yLa2aKMVQbA5Bzm49aPpN2/profile_peterpandev.png?q=1709473970.1259835);
+      size:0 0;
+      repeat:no-repeat;
     }
-}  
+    
+    &:before{
+      content: "";
+      z-index: -1;
+      position: fixed;
+      inset:0;
+      width: 100%;
+      height: 100%;
+      background-image: inherit;
+      background-size: cover;
+      background-position: center;
+      filter: blur(100px);
+      transform: scale(1.2);
+      will-change: filter;
+    }
+}
+
+.main-wrapper{
+  width:100%;
+  background: #000;
+  margin:auto;
+  border-radius: 10px;
+  box-shadow: 0px 0px 9px 7px #0000000f;
+  overflow-y: auto;
+}
+
+@include for-tablet-portrait-up {
+  body{
+    padding:2rem 0;
+  }
+  .main-wrapper{
+    max-width: 650px;
+  }
+}
+
+.top-section{
+  position:relative;
+  .banner{
+    z-index: 0;
+    img{
+
+    }
+  }
+  .profile-information{
+    z-index: 1;
+    position: relative;
+    margin: -4rem auto 0 auto;
+    text-align: center;
+    display: block;
+    color:white;
+    .profile-image{
+      width:120px;
+      height:120px;
+      margin:0 auto 1rem;
+      img{
+        border:2px solid white;
+      }
+    }
+    .profile-handle{
+
+    }
+    .profile-description{
+
+    }
+    .social-links{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+      margin-top: 1rem;
+      a{
+
+      }
+    }
+  }
+}
+
+.accordion-item {
+  .accordion-title {
+    cursor: pointer;
+    margin-top: 1rem;
+    background-color: rgb(31, 33, 37);
+    border-radius: 36px;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    .arrow{
+        position: absolute;
+        right:30px;
+        font-size: 1.5rem;
+    }
+  }
+  .accordion-content {
+    /* Your styles for the hidden content */
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    .accordion-child-item{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    
+    
+      margin-top: 1rem;
+      background-color: #1f2125;
+      border-radius: 36px;
+      padding: 0.5rem 1.5rem 0.5rem 0.5rem;
+      text-align: center;
+
+      img{
+        width: 60px;
+        transition-duration: 0.3s;
+      }
+      span{
+        font-size: 1.2rem;
+        transition-duration: 0.3s;
+      }
+
+      &:hover{
+        transition-duration: 0.3s;
+        background-color:rgba(#1f2125, 0.8);
+        img{
+          width: 65px;
+        }
+        span{
+          font-size: 1.25rem;
+        }
+      }
+    }
+  }
+}
+
