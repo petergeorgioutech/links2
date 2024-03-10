@@ -35,15 +35,11 @@
 
       <Paragraph text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto at laudantium explicabo labore recusandae voluptate, suscipit sit ipsa rerum porro, perspiciatis harum expedita sunt, eum odit ut! Ea, facere autem?" />
 
-      <AccordionGroup title="Home Office">
-        <AccordionItem image="https://links.petergeorgiou.tech/_nuxt/img/deskpad.ef938e8.jpg" text="LG Ultrawide LGWQ" link="https://google.com" />
+      <AccordionGroup title="Accordion Group">
+        <AccordionItem image="https://placehold.co/600x600" text="Item in Group" link="https://google.com" />
       </AccordionGroup>
 
-      <LinkButton title="Home Office" link="https://google.com" />
-
-      <AccordionGroup title="The Studio">
-        <AccordionItem image="https://links.petergeorgiou.tech/_nuxt/img/deskpad.ef938e8.jpg" text="LG Ultrawide LGWQ" link="https://google.com" />
-      </AccordionGroup>
+      <LinkButton title="Button with link" link="https://google.com" />
     </div>
   </div>
 </template>

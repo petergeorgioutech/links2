@@ -5,7 +5,8 @@
     "build": "nuxi build",
     "start": "node .output/server/index.mjs",
     "lint": "eslint --ext .ts,.js,.vue .",
-    "test": "vitest"
+    "test": "vitest",
+    "dev:host": "nuxi dev --hostname '192.168.0.199' --port 3000"
   },
   "devDependencies": {
     "@headlessui/vue": "^1.7.19",
