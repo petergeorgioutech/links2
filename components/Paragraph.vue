@@ -1,5 +1,5 @@
 <template>
-  <p class="paragraph text-center">
+  <p class="paragraph text-center mb-6">
     {{ text }}
   </p>
 </template>
