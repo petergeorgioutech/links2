@@ -31,38 +31,19 @@
       </div>
     </header>
     <div class="p-8">
-      <h2 class="heading text-center text-2xl font-extrabold mb-2">
-        Shop My Gear
-      </h2>
+      <Heading heading="Shop My Gear" />
 
-      <!-- <p class="paragraph text-center">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto at laudantium explicabo labore recusandae voluptate, suscipit sit ipsa rerum porro, perspiciatis harum expedita sunt, eum odit ut! Ea, facere autem?
-      </p> -->
+      <Paragraph text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto at laudantium explicabo labore recusandae voluptate, suscipit sit ipsa rerum porro, perspiciatis harum expedita sunt, eum odit ut! Ea, facere autem?" />
 
-      <AccordionItem title="Home office">
-        <a class="accordion-child-item" href="#">
-          <img src="https://links.petergeorgiou.tech/_nuxt/img/deskpad.ef938e8.jpg" alt="" class="img-circle">
-          <span>LG Ultrawide LGWQ </span>
-        </a>
-      </AccordionItem>
-      <AccordionItem title="Studio">
-        <a class="accordion-child-item" href="#">
-          <img src="https://links.petergeorgiou.tech/_nuxt/img/deskpad.ef938e8.jpg" alt="" class="img-circle">
-          <span>LG Ultrawide LGWQ </span>
-        </a>
-        <a class="accordion-child-item" href="#">
-          <img src="https://links.petergeorgiou.tech/_nuxt/img/deskpad.ef938e8.jpg" alt="" class="img-circle">
-          <span>LG Ultrawide LGWQ </span>
-        </a>
-        <a class="accordion-child-item" href="#">
-          <img src="https://links.petergeorgiou.tech/_nuxt/img/deskpad.ef938e8.jpg" alt="" class="img-circle">
-          <span>LG Ultrawide LGWQ </span>
-        </a>
-        <a class="accordion-child-item" href="#">
-          <img src="https://links.petergeorgiou.tech/_nuxt/img/deskpad.ef938e8.jpg" alt="" class="img-circle">
-          <span>LG Ultrawide LGWQ </span>
-        </a>
-      </AccordionItem>
+      <AccordionGroup title="Home Office">
+        <AccordionItem image="https://links.petergeorgiou.tech/_nuxt/img/deskpad.ef938e8.jpg" text="LG Ultrawide LGWQ" link="https://google.com" />
+      </AccordionGroup>
+
+      <LinkButton title="Home Office" link="https://google.com" />
+
+      <AccordionGroup title="The Studio">
+        <AccordionItem image="https://links.petergeorgiou.tech/_nuxt/img/deskpad.ef938e8.jpg" text="LG Ultrawide LGWQ" link="https://google.com" />
+      </AccordionGroup>
     </div>
   </div>
 </template>

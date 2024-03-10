@@ -93,11 +93,11 @@ body{
   }
 }
 
-.accordion-item {
+.accordion-group {
   .accordion-title {
     cursor: pointer;
     margin-top: 1rem;
-    background-color: rgb(31, 33, 37);
+    background-color: #1f2125;
     border-radius: 36px;
     padding: 1.5rem 1rem;
     text-align: center;
@@ -117,7 +117,7 @@ body{
     /* Your styles for the hidden content */
     overflow: hidden;
     transition: max-height 0.3s ease;
-    .accordion-child-item{
+    .accordion-item{
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -152,3 +152,32 @@ body{
   }
 }
 
+.link-button {
+  a{
+    position: relative;
+    margin-top: 1rem;
+    background-color: #1f2125;
+    border-radius: 36px;
+    padding: 1.5rem 1rem;
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .arrow{
+        position: absolute;
+        right:30px;
+        font-size: 1.5rem;
+        transition-duration:0.3s;
+    }
+    &:hover{
+      transition-duration: 0.3s;
+      background-color:rgba(#1f2125, 0.8);
+      .arrow{
+        right:20px;
+      }
+      font-size: 1.25rem;
+    }
+  }
+}
