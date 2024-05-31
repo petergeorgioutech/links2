@@ -1,25 +1,18 @@
 <template>
-    <div>
-      <h1 class="text-center py-8">Blog Page</h1>
-      <ul>
-        <li v-for="post in posts" :key="post.slug">
-          <NuxtLink :to="`/blog/${post.slug}`">{{ post.title }}</NuxtLink>
-        </li>
-      </ul>
-    </div>
-  </template>
-  
-  <script setup>
-  import { useAsyncData } from '#imports'
-  
-  // Define a function to fetch the posts data
-  const fetchPosts = async () => {
-      const posts = await $content('blog').fetch()
-      console.log('Posts:', posts)
-    return posts
-  }
-  
-  // Use the useAsyncData composable to fetch the data
-  const { data: posts } = await useAsyncData('posts', fetchPosts)
-  </script>
-  
+  <main>
+    <ContentList path="/blog" v-slot="{ list }">
+      <div v-for="article in list" :key="article._path">
+        <pre>
+          <!-- {{article}} -->
+        </pre>
+        <h2>{{ article.title }}</h2>
+        <a :href="article._path">{{ article._path }}</a>
+      </div>
+    </ContentList>
+  </main>
+</template>
+
+<script setup>
+// const { data } = await useAsyncData('blog', () => queryContent('blog').findOne())
+
+</script>
