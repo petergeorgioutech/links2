@@ -42,7 +42,7 @@ const toggle = () => {
     max-height: 0;
   }
   .collapse-enter-to, .collapse-leave-from {
-    max-height: 80px; /* Set an approximate max height */
+    max-height: 60px; /* Set an approximate max height */
   }
 
   </style>

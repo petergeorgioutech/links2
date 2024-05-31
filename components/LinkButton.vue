@@ -17,26 +17,10 @@ const props = defineProps({
   link: String
 })
 
-// Accordion state
-const isOpen = ref(false)
-
-// Toggle function
-const toggle = () => {
-  isOpen.value = !isOpen.value
-}
 </script>
 
-  <style scoped>
+<style>
 
-  /* Transition styles for collapsing animation */
-  .collapse-enter-active, .collapse-leave-active {
-    transition: max-height 0.3s ease;
-  }
-  .collapse-enter-from, .collapse-leave-to {
-    max-height: 0;
-  }
-  .collapse-enter-to, .collapse-leave-from {
-    max-height: 80px; /* Set an approximate max height */
-  }
+.nothing{}
 
-  </style>
+</style>

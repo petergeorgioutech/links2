@@ -1,8 +1,34 @@
+.border-rounded{
+  border-radius:36px;
+}
 
 .img-rounded{
-    border-radius:10px;
+  border-radius:10px;
+}
+
+.img-circle{
+  border-radius:50%;
+}
+
+.crossed-out{
+  text-decoration: line-through;
+}
+
+.btn-rounded-white{
+  background-color:white;
+  color:black;
+  padding:0.5rem;
+  text-align: center;
+  font-weight: 600;
+  transition-duration:0.3s;
+  cursor: pointer;
+  &:hover{
+    padding:0.8rem;
+    transition-duration:0.3s;
+    // background-color:rgba(white, 0.8)
   }
-  
-  .img-circle{
-    border-radius:50%;
-  }
+}
+
+.fill-image{
+  object-fit: cover;
+}
