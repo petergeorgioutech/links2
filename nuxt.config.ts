@@ -7,7 +7,8 @@ export default defineNuxtConfig({
     'nuxt-icon',
     'nuxt-headlessui',
     'nuxt-vitest',
-    '@nuxt/devtools'
+    '@nuxt/devtools',
+    '@nuxt/content'
   ],
   experimental: {
     reactivityTransform: true
