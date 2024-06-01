@@ -21,5 +21,5 @@ components:
     productButtonText: Get it now
     productButtonLink: https://peterpandev.gumroad.com/l/start-learning-how-to-code
     productOldPrice: £15.99
-    productNewPrice: £9.99
+    productNewPrice: £10.99
 ---

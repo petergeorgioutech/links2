@@ -4,8 +4,8 @@ backend:
 
 media_folder: public/img
 public_folder: /img
-display_url: "https://peterpandev.netlify.app/"
-site_url: "https://peterpandev.netlify.app/"
+# display_url: "https://peterpandev.netlify.app/"
+# site_url: "https://peterpandev.netlify.app/"
 publish_mode: editorial_workflow
 
 collections:

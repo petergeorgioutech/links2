@@ -1,9 +1,9 @@
 <template>
   <div>
     <Header />
-    <pre>
+    <!-- <pre>
       {{ data }}
-    </pre>
+    </pre> -->
     <div class="p-8">
       <component
         :is="getComponentType(component)"
