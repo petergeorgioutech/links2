@@ -14,7 +14,12 @@ components:
     title: The link
     link: this is the link
   - type: product
-    productName: the product name
-    productImage: /img/dsc01984.jpg
-    productLink: The product link
+    productImage: /img/book-cover.png
+    productName: Start Learning How To Code
+    productDescription: Understand what coding is, why you should learn it and how
+      to achieve your goals faster.
+    productButtonText: Get it now
+    productButtonLink: https://peterpandev.gumroad.com/l/start-learning-how-to-code
+    productOldPrice: £15.99
+    productNewPrice: £9.99
 ---
