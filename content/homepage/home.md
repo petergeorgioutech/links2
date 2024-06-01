@@ -25,4 +25,12 @@ components:
     productButtonLink: https://peterpandev.gumroad.com/l/start-learning-how-to-code
     productOldPrice: £15.99
     productNewPrice: £10.99
+  - type: product
+    productName: Product 2
+    productDescription: The description
+    productImage: /img/dsc01984.jpg
+    productButtonText: Get it for free
+    productButtonLink: /
+    productOldPrice: £2.99
+    productNewPrice: FREE
 ---
