@@ -2,7 +2,7 @@
   <div>
     <Header />
     <!-- <pre>
-      {{ data }}
+      {{ homeData }}
     </pre> -->
     <div class="p-8">
       <component
@@ -28,7 +28,7 @@ import Product from '~/components/Product.vue'
 const homeData = ref({ components: [] })
 
 // Fetch the homepage data using useAsyncData
-const { data, error } = await useAsyncData('homepage', () => queryContent('/homepage/home').findOne())
+const { data, error } = await useAsyncData('homepage', () => queryContent('homepage/home').findOne())
 
 // Assign data to homeData if available
 if (data.value) {

@@ -8,17 +8,17 @@
 
 <script setup lang="ts">
 import { Icon } from '@iconify/vue'
+
 const props = defineProps({
   image: String,
   text: String,
   link: String
 })
-
 </script>
 
-<style>
-.fill-image{
-  width:120px;
-  height:50px;
+<style scoped>
+.fill-image {
+  width: 120px;
+  height: 50px;
 }
 </style>
