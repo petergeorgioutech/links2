@@ -13,8 +13,4 @@ components:
   - type: linkButton
     title: The link
     link: this is the link
-  - type: product
-    productName: the product name
-    productImage: /img/dsc01984.jpg
-    productLink: The product link
 ---
