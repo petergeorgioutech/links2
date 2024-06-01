@@ -1,7 +1,7 @@
 <template>
   <header class="top-section">
     <div class="banner">
-      <img src="/header.webp" alt="banner image" class="img-rounded">
+      <img src="/secretlab-cover.jpg" alt="banner image" class="img-rounded">
     </div>
     <div class="profile-information">
       <div class="profile-image">
@@ -27,6 +27,9 @@
           <Icon color="white" width="35" icon="mage:tiktok-circle" />
         </a>
       </nav>
+      <a href="//secretlab.co" target="_blank">
+        <img src="/secretlab_official_partner_white.svg" class="block mx-auto mt-8" alt="" width="350">
+      </a>
     </div>
   </header>
 </template>

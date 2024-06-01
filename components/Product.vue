@@ -5,14 +5,14 @@
       <h4 class="product-title">
         {{ productName }}
       </h4>
-      <p class="product-description">
+      <p v-if="productDescription" class="product-description">
         {{ productDescription }}
       </p>
-      <div class="product-price">
-        <span class="product-discount crossed-out mr-2">{{ productOldPrice }}</span>
-        <span class="product-total">{{ productNewPrice }}</span>
+      <div v-if="productNewPrice" class="product-price">
+        <span v-if="productOldPrice" class="product-discount crossed-out mr-2">{{ productOldPrice }}</span>
+        <span v-if="productNewPrice" class="product-total">{{ productNewPrice }}</span>
       </div>
-      <a :href="productbuttonLink" class="btn-rounded-white border-rounded">{{ productButtonText }}</a>
+      <a v-if="productButtonText" :href="productbuttonLink" class="btn-rounded-white border-rounded">{{ productButtonText }}</a>
     </div>
   </div>
 </template>
