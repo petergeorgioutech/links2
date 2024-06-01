@@ -1,22 +1,31 @@
 <template>
   <div class="single-product">
-    <img src="https://public-files.gumroad.com/k17wvieclh5urrjbvtp16jypvva8" class="product-image">
+    <img :src="productImage" class="product-image">
     <div class="product-details">
       <h4 class="product-title">
-        Start Learning How To Code
+        {{ productName }}
       </h4>
       <p class="product-description">
-        This e-book includes resources I used personally that helped me learn to code.
+        {{ productDescription }}
       </p>
       <div class="product-price">
-        <span class="product-discount crossed-out mr-2">£15.99</span>
-        <span class="product-total">£9.99</span>
+        <span class="product-discount crossed-out mr-2">{{ productOldPrice }}</span>
+        <span class="product-total">{{ productNewPrice }}</span>
       </div>
-      <a href="#" class="btn-rounded-white border-rounded">Buy now</a>
+      <a :href="productbuttonLink" class="btn-rounded-white border-rounded">{{ productButtonText }}</a>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
 import { Icon } from '@iconify/vue'
+const props = defineProps({
+  productName: String,
+  productDescription: String,
+  productImage: String,
+  productOldPrice: String,
+  productNewPrice: String,
+  productButtonText: String,
+  productbuttonLink: String
+})
 </script>
