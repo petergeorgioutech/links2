@@ -1,33 +1,56 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
+  branch: main
 
 media_folder: public/img
 public_folder: /img
 
 collections:
   - name: 'homepage'
+    title: 'Home'
     label: 'Homepage'
     folder: 'content/homepage'
     create: true
     slug: 'home'
     editor:
-      preview: false
+      preview: true
     fields:
-      - { label: 'Headings', name: 'headings', widget: 'list', fields: [{ label: 'Heading', name: 'heading', widget: 'string' }] }
-      - { label: 'Paragraphs', name: 'paragraphs', widget: 'list', fields: [{ label: 'Text', name: 'text', widget: 'text' }] }
-      - label: 'Accordion Groups'
-        name: 'accordionGroups'
+      - label: 'Components'
+        name: 'components'
         widget: 'list'
-        fields:
-          - { label: 'Title', name: 'title', widget: 'string' }
-          - label: 'Items'
-            name: 'items'
-            widget: 'list'
+        types:
+          - label: 'Heading'
+            name: 'heading'
+            widget: 'object'
             fields:
-              - { label: 'Image', name: 'image', widget: 'image' }
+              - { label: 'Heading', name: 'heading', widget: 'string' }
+          - label: 'Paragraph'
+            name: 'paragraph'
+            widget: 'object'
+            fields:
               - { label: 'Text', name: 'text', widget: 'text' }
+          - label: 'Accordion Group'
+            name: 'accordionGroup'
+            widget: 'object'
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string' }
+              - label: 'Items'
+                name: 'items'
+                widget: 'list'
+                fields:
+                  - { label: 'Image', name: 'image', widget: 'image' }
+                  - { label: 'Text', name: 'text', widget: 'text' }
+                  - { label: 'Link', name: 'link', widget: 'string' }
+          - label: 'Link Button'
+            name: 'linkButton'
+            widget: 'object'
+            fields:
+              - { label: 'Title', name: 'title', widget: 'string' }
               - { label: 'Link', name: 'link', widget: 'string' }
-      - { label: 'Link Buttons', name: 'linkButtons', widget: 'list', fields: [{ label: 'Title', name: 'title', widget: 'string' }, { label: 'Link', name: 'link', widget: 'string' }] }
-      - { label: 'Products', name: 'products', widget: 'list', fields: [{ label: 'Product Name', name: 'productName', widget: 'string' }, { label: 'Product Link', name: 'productLink', widget: 'string' }, { label: 'Product Image', name: 'productImage', widget: 'image' }] }
-
+          - label: 'Product'
+            name: 'product'
+            widget: 'object'
+            fields:
+              - { label: 'Product Name', name: 'productName', widget: 'string' }
+              - { label: 'Product Link', name: 'productLink', widget: 'string' }
+              - { label: 'Product Image', name: 'productImage', widget: 'image' }
