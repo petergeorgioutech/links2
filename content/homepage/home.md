@@ -10,6 +10,9 @@ components:
       - text: text for item
         link: This is the link
         image: /img/dsc01984.jpg
+      - image: /img/book-cover.png
+        text: another one
+        link: https://google.com
   - type: linkButton
     title: The link
     link: this is the link
