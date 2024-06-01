@@ -5,7 +5,6 @@ const { data } = await useAsyncData('page-data', () => queryContent(route.path).
 
 <template>
   <main>
-    
     <ContentRenderer :value="data">
       <h1>👇🏻 Title Field 👇🏻</h1>
       <h1>{{ data.title }}</h1> <br>

@@ -6,17 +6,28 @@ media_folder: public/img
 public_folder: /img
 
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
-    format: 'frontmatter'
+  - name: 'homepage'
+    label: 'Homepage'
+    folder: 'content/homepage'
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    slug: 'home'
     editor:
       preview: false
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-      - { label: "Featured Image", name: "thumbnail", widget: "image", choose_url: true,}
+      - { label: 'Headings', name: 'headings', widget: 'list', fields: [{ label: 'Heading', name: 'heading', widget: 'string' }] }
+      - { label: 'Paragraphs', name: 'paragraphs', widget: 'list', fields: [{ label: 'Text', name: 'text', widget: 'text' }] }
+      - label: 'Accordion Groups'
+        name: 'accordionGroups'
+        widget: 'list'
+        fields:
+          - { label: 'Title', name: 'title', widget: 'string' }
+          - label: 'Items'
+            name: 'items'
+            widget: 'list'
+            fields:
+              - { label: 'Image', name: 'image', widget: 'image' }
+              - { label: 'Text', name: 'text', widget: 'text' }
+              - { label: 'Link', name: 'link', widget: 'string' }
+      - { label: 'Link Buttons', name: 'linkButtons', widget: 'list', fields: [{ label: 'Title', name: 'title', widget: 'string' }, { label: 'Link', name: 'link', widget: 'string' }] }
+      - { label: 'Products', name: 'products', widget: 'list', fields: [{ label: 'Product Name', name: 'productName', widget: 'string' }, { label: 'Product Link', name: 'productLink', widget: 'string' }, { label: 'Product Image', name: 'productImage', widget: 'image' }] }
+
