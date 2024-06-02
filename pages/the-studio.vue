@@ -1,26 +1,60 @@
 <template>
   <div>
-    <Banner image="/secretlab-cover.jpg" />
+    <HeaderInner />
+    <!-- <pre>
+      {{ pageData }}
+    </pre> -->
     <div class="p-8">
-      <Heading heading="The Studio" />
-      <Paragraph text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto at laudantium explicabo labore recusandae voluptate, suscipit sit ipsa rerum porro, perspiciatis harum expedita sunt, eum odit ut! Ea, facere autem?" />
-
-      <AccordionGroup title="Desk">
-        <AccordionItem image="/setup/studio/dokk.JPG" text="Standing Desk by Dokk - 180cm by 90cm" link="https://dokk.store/?ref=h6ow9bjv" />
-      </AccordionGroup>
-
-      <AccordionGroup title="Monitors">
-        <AccordionItem image="/setup/studio/ultrawide.JPG" text="LG49WL95C-WY" link="https://www.amazon.com/dp/B09QD21693?linkCode=ssc&tag=onamzpanayi0a-20&creativeASIN=B09QD21693&asc_item-id=amzn1.ideas.1YNZ82Q9EWNWS&ref_=aip_sf_list_spv_ons_mixed_d_asin" />
-        <AccordionItem image="/setup/studio/uperfecto.JPG" text="UPERFECT O" link="https://www.uperfectmonitor.com/products/oled-portable-monitor-4k-uperfect-o" />
-      </AccordionGroup>
-
-      <!-- <LinkButton title="Button with link" link="https://google.com" /> -->
-
-      <!-- <Product /> -->
+      <component
+        :is="getComponentType(component)"
+        v-for="(component, index) in pageData.components"
+        :key="`component-${index}`"
+        v-bind="component"
+      />
     </div>
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
+import { ref, onMounted } from 'vue'
+// import { useAsyncData } from '@nuxt/content'
+import Heading from '~/components/Heading.vue'
+import Paragraph from '~/components/Paragraph.vue'
+import AccordionGroup from '~/components/AccordionGroup.vue'
+import LinkButton from '~/components/LinkButton.vue'
+import Product from '~/components/Product.vue'
+import Banner from '~/components/Banner.vue'
 
+// Initialize pageData with default structure
+const pageData = ref({ components: [] })
+
+// Fetch the home data using useAsyncData
+const { data, error } = await useAsyncData('studio', () => queryContent('pages/the-studio').findOne())
+
+// Assign data to pageData if available
+if (data.value) {
+  pageData.value = data.value
+} else {
+  console.error('Error fetching home data:', error.value)
+}
+
+// Function to get the component type
+const getComponentType = (component) => {
+  switch (component.type) {
+    case 'heading':
+      return Heading
+    case 'paragraph':
+      return Paragraph
+    case 'accordionGroup':
+      return AccordionGroup
+    case 'linkButton':
+      return LinkButton
+    case 'product':
+      return Product
+    case 'banner':
+      return Banner
+    default:
+      return null
+  }
+}
 </script>

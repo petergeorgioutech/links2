@@ -9,17 +9,16 @@ public_folder: /img
 publish_mode: editorial_workflow
 
 collections:
-  - name: 'homepage'
-    label: 'Homepage'
-    folder: 'content/homepage'
+  - name: 'pages'
+    label: 'Pages'
+    folder: 'content/pages'
     create: true
-    slug: 'home'
-    identifier_field: 'home'
-    show_preview_links: true
-    preview_path: '/'
+    slug: 'page'
+    identifier_field: 'page'
     editor:
-      preview: true
+      preview: false
     fields:
+      - name: 'Title'
       - label: 'Components'
         name: 'components'
         widget: 'list'
