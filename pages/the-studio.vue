@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Banner image="/setup/studio/studio.JPG" />
+    <Banner image="/secretlab-cover.jpg" />
     <div class="p-8">
       <Heading heading="The Studio" />
       <Paragraph text="Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto at laudantium explicabo labore recusandae voluptate, suscipit sit ipsa rerum porro, perspiciatis harum expedita sunt, eum odit ut! Ea, facere autem?" />

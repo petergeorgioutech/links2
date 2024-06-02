@@ -23,18 +23,19 @@ import Paragraph from '~/components/Paragraph.vue'
 import AccordionGroup from '~/components/AccordionGroup.vue'
 import LinkButton from '~/components/LinkButton.vue'
 import Product from '~/components/Product.vue'
+import Banner from '~/components/Banner.vue'
 
 // Initialize homeData with default structure
 const homeData = ref({ components: [] })
 
-// Fetch the homepage data using useAsyncData
-const { data, error } = await useAsyncData('homepage', () => queryContent('homepage/home').findOne())
+// Fetch the home data using useAsyncData
+const { data, error } = await useAsyncData('home', () => queryContent('pages/home').findOne())
 
 // Assign data to homeData if available
 if (data.value) {
   homeData.value = data.value
 } else {
-  console.error('Error fetching homepage data:', error.value)
+  console.error('Error fetching home data:', error.value)
 }
 
 // Function to get the component type
@@ -50,6 +51,8 @@ const getComponentType = (component) => {
       return LinkButton
     case 'product':
       return Product
+    case 'banner':
+      return Banner
     default:
       return null
   }

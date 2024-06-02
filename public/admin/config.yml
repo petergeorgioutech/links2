@@ -34,6 +34,11 @@ collections:
             widget: 'object'
             fields:
               - { label: 'Text', name: 'text', widget: 'text' }
+          - label: 'Banner'
+            name: 'banner'
+            widget: 'object'
+            fields:
+              - { label: 'Image', name: 'image', widget: 'image' }
           - label: 'Accordion Group'
             name: 'accordionGroup'
             widget: 'object'
