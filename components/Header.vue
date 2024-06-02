@@ -8,23 +8,27 @@
         <img src="/profile.jpg" alt="" class="img-circle">
       </div>
       <h1 class="profile-name">
-        Panayiotis Georgiou
+        Panayiotis Georgiou <br>
+        <small style="font-size: 65%;" class="leading-7 block">Frontend Developer | Content Creator</small>
       </h1>
       <p class="profile-description p-1">
         Tech setup enthusiast inspiring coders and tech nerds.
       </p>
       <nav class="social-links">
-        <a href="" target="_blank">
+        <a href="//instagram.com/peterpandev" target="_blank">
           <Icon color="white" width="35" icon="entypo-social:instagram-with-circle" />
         </a>
-        <a href="" target="_blank">
-          <Icon color="white" width="35" icon="entypo-social:linkedin-with-circle" />
+        <a href="//tiktok.com/@peterpandeveloper" target="_blank">
+          <Icon color="white" width="35" icon="mage:tiktok-circle" />
         </a>
-        <a href="" target="_blank">
+        <a href="//youtube.com/@peterpandev" target="_blank">
           <Icon color="white" width="35" icon="entypo-social:youtube-with-circle" />
         </a>
-        <a href="" target="_blank">
-          <Icon color="white" width="35" icon="mage:tiktok-circle" />
+        <a href="//www.linkedin.com/in/peter-georgiou/" target="_blank">
+          <Icon color="white" width="35" icon="entypo-social:linkedin-with-circle" />
+        </a>
+        <a href="mailto:hello@petergeorgiou.tech" target="_blank">
+          <Icon color="white" width="35" icon="mage:email-opened" />
         </a>
       </nav>
       <a href="//secretlab.co" target="_blank">
