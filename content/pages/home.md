@@ -1,4 +1,5 @@
 ---
+Title: Homepage
 components:
   - type: product
     productImage: /img/secretlab-cover.jpg
@@ -6,7 +7,7 @@ components:
     productDescription: The gear I use in the studio on a daily basis that helps me
       get the job done.
     productButtonText: Check it out
-    productButtonLink: "/the-studio"
+    productButtonLink: /the-studio
     productOldPrice: " "
     productNewPrice: " "
   - type: product
@@ -14,7 +15,7 @@ components:
     productName: My Home Office Setup Gear
     productDescription: The gear I use when I work from home.
     productButtonText: Check it out
-    productButtonLink: "/home-office"
+    productButtonLink: /home-office
     productOldPrice: " "
     productNewPrice: " "
   - type: heading
@@ -26,6 +27,6 @@ components:
       to achieve your goals faster.
     productButtonText: Read more
     productButtonLink: https://peterpandev.gumroad.com/l/start-learning-how-to-code
-    productOldPrice:
-    productNewPrice:
+    productOldPrice: " "
+    productNewPrice: " "
 ---
