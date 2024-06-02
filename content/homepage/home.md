@@ -6,18 +6,26 @@ components:
     productDescription: The gear I use in the studio on a daily basis that helps me
       get the job done.
     productButtonText: Check it out
-    productButtonLink: https://peterpandev.gumroad.com/l/start-learning-how-to-code
+    productButtonLink: /the-studio
+    productOldPrice: " "
+    productNewPrice: " "
+  - type: product
+    productImage: /home-office.jpeg
+    productName: My Home Office Setup Gear
+    productDescription: The gear I use when I work from home.
+    productButtonText: Check it out
+    productButtonLink: /home-office
     productOldPrice: " "
     productNewPrice: " "
   - type: heading
     heading: My Products
   - type: product
     productImage: /img/book-cover.png
-    productName: Start Learning How To Code
+    productName: Start Learning How To Code [Ebook | PDF]
     productDescription: Understand what coding is, why you should learn it and how
       to achieve your goals faster.
-    productButtonText: Get it now
+    productButtonText: Read more
     productButtonLink: https://peterpandev.gumroad.com/l/start-learning-how-to-code
-    productOldPrice: £15.99
-    productNewPrice: £10.99
+    productOldPrice:
+    productNewPrice:
 ---

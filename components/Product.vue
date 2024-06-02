@@ -1,5 +1,5 @@
 <template>
-  <div class="single-product">
+  <div class="single-product my-6">
     <img :src="productImage" class="product-image">
     <div class="product-details">
       <h4 class="product-title">
