@@ -9,6 +9,8 @@ components:
     productButtonLink: https://peterpandev.gumroad.com/l/start-learning-how-to-code
     productOldPrice: " "
     productNewPrice: " "
+  - type: heading
+    heading: My Products
   - type: product
     productImage: /img/book-cover.png
     productName: Start Learning How To Code
