@@ -29,7 +29,7 @@ import Banner from '~/components/Banner.vue'
 const pageData = ref({ components: [] })
 
 // Fetch the home data using useAsyncData
-const { data, error } = await useAsyncData('studio', () => queryContent('pages/the-studio').findOne())
+const { data, error } = await useAsyncData('home-office', () => queryContent('pages/the-home-office').findOne())
 
 // Assign data to pageData if available
 if (data.value) {

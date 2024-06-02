@@ -15,7 +15,7 @@ components:
     productName: My Home Office Setup Gear
     productDescription: The gear I use when I work from home.
     productButtonText: Check it out
-    productButtonLink: /home-office
+    productButtonLink: /the-home-office
     productOldPrice: " "
     productNewPrice: " "
   - type: heading

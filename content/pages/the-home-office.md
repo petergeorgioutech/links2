@@ -1,5 +1,5 @@
 ---
-Title: The Studio
+Title: The Home Office
 components:
   
 ---
