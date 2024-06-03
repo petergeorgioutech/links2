@@ -9,7 +9,7 @@
       </div>
       <h1 class="profile-name">
         Panayiotis Georgiou <br>
-        <small style="font-size: 65%;" class="leading-7 block">Frontend Developer | Content Creator</small>
+        <small class="leading-7 block">Frontend Developer | Content Creator</small>
       </h1>
       <p class="profile-description p-1">
         Tech setup enthusiast inspiring coders and tech nerds.
