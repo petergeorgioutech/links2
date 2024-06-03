@@ -57,4 +57,13 @@ const getComponentType = (component) => {
       return null
   }
 }
+
+useSeoMeta({
+  title: 'Panayiotis Georgiou | @peterpandev',
+  ogTitle: 'Panayiotis Georgiou | @peterpandev',
+  description: 'Frontend Coder | Tech Setup Enthusiast',
+  ogDescription: 'Frontend Coder | Tech Setup Enthusiast',
+  ogImage: '/profile.jpg',
+  twitterCard: '/profile.jpg'
+})
 </script>

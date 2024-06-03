@@ -3,8 +3,9 @@
     <a href="/" class="back-button">
       <Icon color="white" width="35" icon="mage:arrow-left" />
     </a>
-    <h1 class="text-center text-xl font-medium">
-      {{ pageTitle }}
+    <h1 class="text-center text-sm font-medium m-0 hidden">
+      <!-- {{ pageTitle }} -->
+      @peterpandev
     </h1>
     <div class="profile-information flex justify-start items-center gap-3">
       <div class="profile-image">

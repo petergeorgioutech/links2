@@ -6,13 +6,13 @@
         {{ productName }}
       </h4>
       <p v-if="productDescription" class="product-description">
-        {{ productDescription }}
+        <span v-html="productDescription" />
       </p>
       <div v-if="productNewPrice" class="product-price">
         <span v-if="productOldPrice" class="product-discount crossed-out mr-2">{{ productOldPrice }}</span>
         <span v-if="productNewPrice" class="product-total">{{ productNewPrice }}</span>
       </div>
-      <a v-if="productButtonText" :href="productButtonLink" class="btn-rounded-white border-rounded">{{ productButtonText }}</a>
+      <a v-if="productButtonText" target="_blank" :href="productButtonLink" class="btn-rounded-white border-rounded">{{ productButtonText }}</a>
     </div>
   </div>
 </template>

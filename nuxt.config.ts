@@ -39,5 +39,12 @@ export default defineNuxtConfig({
   devServer: {
     port: 3000,
     host: '0.0.0.0'
-  }
+  },
+  head: {
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+    ],
+    __dangerouslyDisableSanitizers: ['script']
+  },
+  plugins: ['~/plugins/vue-gtag.js']
 })

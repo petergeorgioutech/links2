@@ -1,10 +1,10 @@
 <template>
-  <div>
-    <pre>
+  <div class="product-page">
+    <!-- <pre>
       {{ pageData }}
-    </pre>
+    </pre> -->
     <HeaderInner :page-title="theTitle" />
-    <div v-if="bannerComponent">
+    <div v-if="bannerComponent" class="inner-content">
       <component :is="getComponentType(bannerComponent)" v-bind="bannerComponent" />
     </div>
     <div class="p-8">
@@ -33,13 +33,11 @@ const pageData = ref({ components: [] })
 // Fetch the home data using useAsyncData
 const { data, error } = await useAsyncData('studio', () => queryContent('pages/the-studio').findOne())
 
-watch(data, () => {
-  if (data.value) {
-    pageData.value = data.value
-  } else {
-    console.error('Error fetching page data:', error.value)
-  }
-})
+if (data.value) {
+  pageData.value = data.value
+} else {
+  console.error('Error fetching page data:', error.value)
+}
 
 const theTitle = pageData.value.title
 
@@ -66,4 +64,13 @@ const getComponentType = (component) => {
       return null
   }
 }
+
+useSeoMeta({
+  title: 'The Studio | Panayiotis Georgiou | @peterpandev',
+  ogTitle: 'The Studio | Panayiotis Georgiou | @peterpandev',
+  description: 'Frontend Coder | Tech Setup Enthusiast',
+  ogDescription: 'Frontend Coder | Tech Setup Enthusiast',
+  ogImage: '/profile.jpg',
+  twitterCard: '/profile.jpg'
+})
 </script>

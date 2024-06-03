@@ -24,6 +24,9 @@
         <a href="//youtube.com/@peterpandev" target="_blank">
           <Icon color="white" width="35" icon="entypo-social:youtube-with-circle" />
         </a>
+        <a href="//www.amazon.com/shop/peterpandev/list/1YNZ82Q9EWNWS?ref_=aip_sf_list_spv_ofs_mixed_d" target="_blank">
+          <Icon color="white" width="35" icon="entypo-social:500px-with-circle" />
+        </a>
         <a href="//www.linkedin.com/in/peter-georgiou/" target="_blank">
           <Icon color="white" width="35" icon="entypo-social:linkedin-with-circle" />
         </a>
@@ -31,7 +34,7 @@
           <Icon color="white" width="35" icon="mage:email-opened" />
         </a>
       </nav>
-      <a href="//secretlab.co" target="_blank">
+      <a href="//secretlab.co/?rfsn=7910453.2764ccb&utm_source=refersion&utm_medium=affiliate&utm_campaign=7910453.2764ccb" target="_blank">
         <img src="/secretlab_official_partner_white.svg" class="block mx-auto mt-8" alt="" width="350">
       </a>
     </div>
