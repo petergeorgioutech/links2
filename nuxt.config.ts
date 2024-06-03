@@ -13,7 +13,7 @@ export default defineNuxtConfig({
   experimental: {
     reactivityTransform: true
   },
-  css: ['~/assets/css/tailwind.css', '@/assets/scss/global.scss'],
+  css: ['@/assets/scss/global.scss', '~/assets/css/tailwind.css'],
   postcss: {
     plugins: {
       tailwindcss: {},

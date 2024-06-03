@@ -80,7 +80,11 @@ body {
       }
     }
 
-    .profile-name {}
+    .profile-name {
+      font-weight: 600;
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
 
     .profile-handle {
       font-size: 100%;
