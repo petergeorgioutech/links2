@@ -4,11 +4,7 @@ components:
   - type: product
     productName: Secretlab MAGNUS Monitor Arm (Heavy Duty Edition)
     productDescription: Made exclusively for ultrawide gaming monitors, including
-      the Samsung Odyssey Neo G9 gaming monitor. Securely mount heavier and
-      wider displays (up to 16 kg and 57”) and move them into the optimal
-      position with ease. Free up even more space on your desk with the
-      Secretlab MAGNUS Monitor Arm (Heavy Duty Edition), for more room to do
-      what you love.
+      the Samsung Odyssey Neo G9 gaming monitor.
     productImage: /img/hdarm.jpg
     productButtonLink: https://bit.ly/4eFyfHz
     productButtonText: Buy now
