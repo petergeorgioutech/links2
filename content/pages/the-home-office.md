@@ -18,7 +18,7 @@ components:
   - type: product
     productImage: /img/setup/home/sotsu.jpg
     productName: Portable Monitor
-    productDescription: FlipAction Go 14”
+    productDescription: Sotsu FlipAction Go 14”
     productButtonText: Buy Now
     productButtonLink: https://www.sotsu.com/products/flipaction-go-14
   - type: product
