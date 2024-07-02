@@ -17,13 +17,13 @@ components:
       get the job done.
     productButtonText: View list of items
     productButtonLink: /the-studio
-  # - type: product
-  #   productName: The Home Office
-  #   productDescription: My small and cozy man cave allows me the flexibility to work
-  #     from home and still be productive
-  #   productImage: /img/setup.jpg
-  #   productButtonText: View list of items
-  #   productButtonLink: /the-home-office
+  - type: product
+    productName: The Home Office
+    productDescription: My small and cozy man cave allows me the flexibility to work
+      from home and still be productive
+    productImage: /img/setup/home/setup.jpg
+    productButtonText: View list of items
+    productButtonLink: /the-home-office
   - type: heading
     heading: My Products
   - type: product
