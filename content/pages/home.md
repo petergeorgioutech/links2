@@ -9,14 +9,21 @@ components:
     productButtonLink: https://bit.ly/4eFyfHz
     productButtonText: Buy now
   - type: heading
-    heading: My Studio Setup
+    heading: Setup Gear
   - type: product
     productImage: /img/secretlab-cover.jpg
-    productName: My Studio Setup Gear
+    productName: The Studio
     productDescription: The gear I use in the studio on a daily basis that helps me
       get the job done.
-    productButtonText: Check it out
+    productButtonText: View list of items
     productButtonLink: /the-studio
+  - type: product
+    productName: The Home Office
+    productDescription: My small and cozy man cave gives me the flexibility to work
+      from home and still be productive
+    productImage: /img/setup.jpg
+    productButtonText: View list of items
+    productButtonLink: /the-home-office
   - type: heading
     heading: My Products
   - type: product
