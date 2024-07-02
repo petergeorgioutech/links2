@@ -27,43 +27,43 @@ collections:
             name: 'heading'
             widget: 'object'
             fields:
-              - { label: 'Heading', name: 'heading', widget: 'string', required: 'false' }
+              - { label: 'Heading', name: 'heading', widget: 'string', required: false }
           - label: 'Paragraph'
             name: 'paragraph'
             widget: 'object'
             fields:
-              - { label: 'Text', name: 'text', widget: 'text', required: 'false' }
+              - { label: 'Text', name: 'text', widget: 'text', required: false }
           - label: 'Banner'
             name: 'banner'
             widget: 'object'
             fields:
-              - { label: 'Image', name: 'image', widget: 'image', required: 'false' }
+              - { label: 'Image', name: 'image', widget: 'image', required: false }
           - label: 'Accordion Group'
             name: 'accordionGroup'
             widget: 'object'
             fields:
-              - { label: 'Title', name: 'title', widget: 'string', required: 'false' }
+              - { label: 'Title', name: 'title', widget: 'string', required: false }
               - label: 'Items'
                 name: 'items'
                 widget: 'list'
                 fields:
-                  - { label: 'Image', name: 'image', widget: 'image', required: 'false' }
-                  - { label: 'Text', name: 'text', widget: 'text', required: 'false' }
-                  - { label: 'Link', name: 'link', widget: 'string', required: 'false' }
+                  - { label: 'Image', name: 'image', widget: 'image', required: false }
+                  - { label: 'Text', name: 'text', widget: 'text', required: false }
+                  - { label: 'Link', name: 'link', widget: 'string', required: false }
           - label: 'Link Button'
             name: 'linkButton'
             widget: 'object'
             fields:
-              - { label: 'Title', name: 'title', widget: 'string', required: 'false' }
-              - { label: 'Link', name: 'link', widget: 'string', required: 'false' }
+              - { label: 'Title', name: 'title', widget: 'string', required: false }
+              - { label: 'Link', name: 'link', widget: 'string', required: false }
           - label: 'Product'
             name: 'product'
             widget: 'object'
             fields:
-              - { label: 'Product Name', name: 'productName', widget: 'string', required: 'false' }
-              - { label: 'Product Description', name: 'productDescription', widget: 'string', required: 'false' }
-              - { label: 'Product Image', name: 'productImage', widget: 'image', required: 'false' }
-              - { label: 'Product Button Text', name: 'productButtonText', widget: 'string', required: 'false' }
-              - { label: 'Product Button Link', name: 'productButtonLink', widget: 'string', required: 'false' }
-              - { label: 'Product Old Price', name: 'productOldPrice', widget: 'string', required: 'false' }
-              - { label: 'Product New Price', name: 'productNewPrice', widget: 'string', required: 'false' }
+              - { label: 'Product Name', name: 'productName', widget: 'string', required: false }
+              - { label: 'Product Description', name: 'productDescription', widget: 'string', required: false }
+              - { label: 'Product Image', name: 'productImage', widget: 'image', required: false }
+              - { label: 'Product Button Text', name: 'productButtonText', widget: 'string', required: false }
+              - { label: 'Product Button Link', name: 'productButtonLink', widget: 'string', required: false }
+              - { label: 'Product Old Price', name: 'productOldPrice', widget: 'string', required: false }
+              - { label: 'Product New Price', name: 'productNewPrice', widget: 'string', required: false }
