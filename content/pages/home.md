@@ -2,6 +2,14 @@
 Title: Homepage
 components:
   - type: product
+    productName: Bambu Lab A1 Combo
+    productDescription: "This 3D printer has me 🤯. Budget friendly and backed by a
+      reputable brand in the indutry. This machine paired with the AMS Lite
+      system is the perfect starter kit for 3D printing "
+    productImage: /img/view-recent-photos-1-.jpg
+    productButtonText: Check it out
+    productButtonLink: https://shareasale.com/r.cfm?b=2485357&u=3441602&m=138211&urllink=&afftrack=
+  - type: product
     productName: Secretlab MAGNUS Monitor Arm (Heavy Duty Edition)
     productDescription: Made exclusively for ultrawide gaming monitors, including
       the Samsung Odyssey Neo G9 gaming monitor.
