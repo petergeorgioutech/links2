@@ -9,13 +9,19 @@ components:
     text: My small and cozy man cave allows me the flexibility to work from home and
       still be productive
   - type: product
-    productImage: /img/setup/home/monitor.jpg
+    productImage: /img/home-office.jpg
     productName: Ultrawide Monitor
     productDescription: LG 40WP95C-W 40” UltraWide Curved WUHD (5120 x 2160) 5K2K Nano IPS Display
     productButtonText: Buy Now
     productButtonLink: https://www.amazon.com/dp/B09P1VLCQ4?linkCode=ssc&tag=onamzpanayi0a-20&creativeASIN=B09P1VLCQ4&asc_item-id=amzn1.ideas.1YNZ82Q9EWNWS&ref_=aip_sf_list_spv_ofs_mixed_d_asin
   - type: product
-    productImage: /img/setup/home/sotsu.jpg
+    productName: Reference Monitor
+    productDescription: LG Dual Up
+    productImage: /img/dualup.jpg
+    productButtonText: Buy Now
+    productButtonLink: https://www.amazon.com/dp/B09XTD5C7H?linkCode=ssc&tag=onamzpanayi0a-20&creativeASIN=B09XTD5C7H&asc_item-id=amzn1.ideas.1YNZ82Q9EWNWS&ref_=aip_sf_list_spv_ons_mixed_d_asin
+  - type: product
+    productImage: /img/portable-monitor.jpg
     productName: Portable Monitor
     productDescription: Sotsu FlipAction Go 14”
     productButtonText: Buy Now
@@ -33,7 +39,7 @@ components:
     productButtonText: Buy Now
     productButtonLink: https://bit.ly/3VMu1FA
   - type: product
-    productImage: /img/setup/home/balolo.jpg
+    productImage: /img/home-office.jpg
     productName: Desk Shelf
     productDescription: Balolo Setup Cockpit
     productButtonText: Buy Now
@@ -122,18 +128,6 @@ components:
     productDescription: UGREEN Nexode 300W
     productButtonText: Buy Now
     productButtonLink: https://www.ugreen.com/products/ugreen-300w-desktop-usb-c-gan-charger
-  - type: product
-    productImage: /img/setup/home/rode.jpg
-    productName: Studio Mic Arm
-    productDescription: Rode PSA1+
-    productButtonText: Buy Now
-    productButtonLink: https://www.amazon.com/dp/B001D7UYBO?linkCode=ssc&tag=onamzpanayi0a-20&creativeASIN=B001D7UYBO&asc_item-id=amzn1.ideas.1YNZ82Q9EWNWS&ref_=aip_sf_list_spv_ofs_mixed_d_asin
-  - type: product
-    productImage: /img/setup/home/fifine.jpg
-    productName: Microphone
-    productDescription: Fifine K688
-    productButtonText: Buy Now
-    productButtonLink: https://www.amazon.com/dp/B09BNMJM2C?linkCode=ssc&tag=onamzpanayi0a-20&creativeASIN=B09BNMJM2C&asc_item-id=amzn1.ideas.1YNZ82Q9EWNWS&ref_=aip_sf_list_spv_ons_d_asin
   - type: product
     productImage: /img/setup/home/orbitkey.jpg
     productName: Desk organiser
