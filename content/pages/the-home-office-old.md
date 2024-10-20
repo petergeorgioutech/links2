@@ -1,14 +1,13 @@
 ---
-Title: The Home Office
+Title: The Home Office Old
 components:
   - type: banner
     image: /img/setup/home/setup.jpg
   - type: heading
     heading: The Home Office
   - type: paragraph
-    text: >-
-      My small and cozy man cave allows me the flexibility to work
-      from home and still be productive
+    text: My small and cozy man cave allows me the flexibility to work from home and
+      still be productive
   - type: product
     productImage: /img/setup/home/monitor.jpg
     productName: Ultrawide Monitor
@@ -20,7 +19,7 @@ components:
     productName: Portable Monitor
     productDescription: Sotsu FlipAction Go 14”
     productButtonText: Buy Now
-    productButtonLink: https://www.sotsu.com/products/flipaction-go-14
+    productButtonLink: https://www.sotsu.com/?ref=PETERGEORGIOU
   - type: product
     productImage: /img/setup/home/autonomous.jpg
     productName: Standing Desk
