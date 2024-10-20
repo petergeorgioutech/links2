@@ -2,13 +2,13 @@
 Title: Homepage
 components:
   - type: product
-    productName: Bambu Lab A1 Combo
-    productDescription: This 3D printer has me 🤯. Budget friendly and backed by a
-      reputable brand in the industry. This machine paired with the AMS Lite
-      system is the perfect starter kit for 3D printing.
-    productImage: /img/view-recent-photos-1-.jpg
+    productName: Desk shelf
+    productDescription: This is the Balolo Setup Cockpit and it's a completely
+      customisable desk shelf with lots of accessories such as a magsafe charger
+      to hold your phone and even attachments to hold laptops and headphones.
+    productImage: /img/balolo.jpg
     productButtonText: Check it out
-    productButtonLink: https://shareasale.com/r.cfm?b=2485357&u=3441602&m=138211&urllink=&afftrack=
+    productButtonLink: https://www.balolo.de/?ref=peterpandev
   - type: product
     productName: Secretlab MAGNUS Monitor Arm (Heavy Duty Edition)
     productDescription: Made exclusively for ultrawide gaming monitors, including
