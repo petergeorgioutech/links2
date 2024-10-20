@@ -39,7 +39,7 @@ components:
     productButtonText: Buy Now
     productButtonLink: https://bit.ly/3VMu1FA
   - type: product
-    productImage: /img/home-office.jpg
+    productImage: /img/balolo.jpg
     productName: Desk Shelf
     productDescription: Balolo Setup Cockpit
     productButtonText: Buy Now
