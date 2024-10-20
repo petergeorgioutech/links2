@@ -2,7 +2,7 @@
 Title: The Home Office
 components:
   - type: banner
-    image: /img/setup/home/setup.jpg
+    image: /img/home-office.jpg
   - type: heading
     heading: The Home Office
   - type: paragraph
