@@ -3,9 +3,9 @@ Title: Homepage
 components:
   - type: product
     productName: Bambu Lab A1 Combo
-    productDescription: "This 3D printer has me 🤯. Budget friendly and backed by a
+    productDescription: This 3D printer has me 🤯. Budget friendly and backed by a
       reputable brand in the industry. This machine paired with the AMS Lite
-      system is the perfect starter kit for 3D printing."
+      system is the perfect starter kit for 3D printing.
     productImage: /img/view-recent-photos-1-.jpg
     productButtonText: Check it out
     productButtonLink: https://shareasale.com/r.cfm?b=2485357&u=3441602&m=138211&urllink=&afftrack=
@@ -29,7 +29,7 @@ components:
     productName: The Home Office
     productDescription: My small and cozy man cave allows me the flexibility to work
       from home and still be productive
-    productImage: /img/setup/home/setup.jpg
+    productImage: /img/home-office.jpg
     productButtonText: View list of items
     productButtonLink: /the-home-office
   - type: heading
