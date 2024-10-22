@@ -2,6 +2,15 @@
 Title: Homepage
 components:
   - type: product
+    productName: Secretlab Ergonomic Recliner Add-on
+    productDescription: Kick back and relax. Keep your legs elevated and well-rested
+      at your preferred angle. It seamlessly integrates with your Secretlab
+      chair, adding a new dimension of ergonomic adjustability and supporting
+      you across even more postures.
+    productImage: /img/recliner.jpg
+    productButtonLink: https://bit.ly/3YwAyGK
+    productButtonText: Buy now
+  - type: product
     productName: Desk shelf
     productDescription: This is the Balolo Setup Cockpit and it's a completely
       customisable desk shelf with lots of accessories such as a magsafe charger
@@ -9,13 +18,6 @@ components:
     productImage: /img/balolo.jpg
     productButtonText: Check it out
     productButtonLink: https://www.balolo.de/?ref=peterpandev
-  - type: product
-    productName: Secretlab MAGNUS Monitor Arm (Heavy Duty Edition)
-    productDescription: Made exclusively for ultrawide gaming monitors, including
-      the Samsung Odyssey Neo G9 gaming monitor.
-    productImage: /img/hdarm.jpg
-    productButtonLink: https://bit.ly/4eFyfHz
-    productButtonText: Buy now
   - type: heading
     heading: Setup Gear
   - type: product
