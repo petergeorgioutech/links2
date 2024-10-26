@@ -2,6 +2,14 @@
 Title: Homepage
 components:
   - type: product
+    productName: BenQ ScreenBar Pro
+    productDescription: I’ve been using these monitor lights ever since BenQ
+      announced the first version and with every new release it just keeps
+      getting better.
+    productImage: /img/benq-screebar-pro.png
+    productButtonText: Get it here
+    productButtonLink: https://amzn.to/3YjeaPT
+  - type: product
     productName: Secretlab Ergonomic Recliner Add-on
     productDescription: Kick back and relax. Keep your legs elevated and well-rested
       at your preferred angle. It seamlessly integrates with your Secretlab
