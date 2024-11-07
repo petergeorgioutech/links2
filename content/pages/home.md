@@ -2,6 +2,13 @@
 Title: Homepage
 components:
   - type: product
+    productName: Blacklyte Athena X Chair (ON SALE)
+    productDescription: This is the Athena chair and it has been built to keep you
+      comfortable for long hours whether you are working from home or gaming.
+    productImage: /img/screenshot-2024-11-07-at-2.33.33 pm.png
+    productButtonText: Check it out
+    productButtonLink: https://blacklyte.uk/products/blacklyte-athena-gaming-chairs
+  - type: product
     productName: BenQ ScreenBar Pro
     productDescription: I’ve been using these monitor lights ever since BenQ
       announced the first version and with every new release it just keeps
