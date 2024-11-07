@@ -7,7 +7,7 @@ components:
       comfortable for long hours whether you are working from home or gaming.
     productImage: /img/screenshot-2024-11-07-at-2.33.33 pm.png
     productButtonText: Check it out
-    productButtonLink: https://blacklyte.uk/products/blacklyte-athena-gaming-chairs
+    productButtonLink: https://tinyurl.com/2bt5c2br
   - type: product
     productName: BenQ ScreenBar Pro
     productDescription: I’ve been using these monitor lights ever since BenQ
