@@ -2,30 +2,6 @@
 Title: Homepage
 components:
   - type: product
-    productName: Blacklyte Athena X Chair (ON SALE)
-    productDescription: This is the Athena chair and it has been built to keep you
-      comfortable for long hours whether you are working from home or gaming.
-    productImage: /img/screenshot-2024-11-07-at-2.33.33 pm.png
-    productButtonText: Check it out
-    productButtonLink: https://tinyurl.com/2bt5c2br
-  - type: product
-    productName: BenQ ScreenBar Pro
-    productDescription: I’ve been using these monitor lights ever since BenQ
-      announced the first version and with every new release it just keeps
-      getting better.
-    productImage: /img/benq-screebar-pro.png
-    productButtonText: Get it here
-    productButtonLink: https://amzn.to/3YjeaPT
-  - type: product
-    productName: Secretlab Ergonomic Recliner Add-on
-    productDescription: Kick back and relax. Keep your legs elevated and well-rested
-      at your preferred angle. It seamlessly integrates with your Secretlab
-      chair, adding a new dimension of ergonomic adjustability and supporting
-      you across even more postures.
-    productImage: /img/recliner.jpg
-    productButtonLink: https://bit.ly/3YwAyGK
-    productButtonText: Buy now
-  - type: product
     productName: Desk shelf
     productDescription: This is the Balolo Setup Cockpit and it's a completely
       customisable desk shelf with lots of accessories such as a magsafe charger
