@@ -34,4 +34,12 @@ components:
       to achieve your goals faster.
     productButtonText: Read more
     productButtonLink: https://peterpandev.gumroad.com/l/start-learning-how-to-code
+  - type: product
+    productName: Secretlab Ecosystem
+    productDescription: "Black Friday deals are now live 🔥 Secretlab have brought
+      my dream setup to life and it made my work and gaming sessions so much
+      more enjoyable. "
+    productImage: /img/dsc03341.jpeg
+    productButtonLink: https://bit.ly/3V0zg4L
+    productButtonText: Browse offers
 ---
