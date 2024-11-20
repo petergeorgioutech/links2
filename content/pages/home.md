@@ -2,6 +2,15 @@
 Title: Homepage
 components:
   - type: product
+    productButtonLink: https://glnk.io/6x6j3/peterpandev
+    productName: LARQ Bottle PureVis™ 2
+    productDescription: "A self cleaning, self purifying water bottle. Charged by
+      USB C and is perfect for work, travel, or just sitting on your desk
+      reminding you to hydrate. Simple, clean, and just makes life a bit easier.
+      "
+    productImage: /img/larq.jpg
+    productButtonText: Buy now
+  - type: product
     productName: Secretlab Ecosystem
     productDescription: "Black Friday deals are now live 🔥 Secretlab have brought
       my dream setup to life and it made my work and gaming sessions so much
@@ -42,13 +51,4 @@ components:
       to achieve your goals faster.
     productButtonText: Read more
     productButtonLink: https://peterpandev.gumroad.com/l/start-learning-how-to-code
-  - type: product
-    productButtonLink: https://glnk.io/6x6j3/peterpandev
-    productName: LARQ Bottle PureVis™ 2
-    productDescription: "A self cleaning, self purifying water bottle. Charged by
-      USB C and is perfect for work, travel, or just sitting on your desk
-      reminding you to hydrate. Simple, clean, and just makes life a bit easier.
-      "
-    productImage: /img/larq.jpg
-    productButtonText: Buy now
 ---
