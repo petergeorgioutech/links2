@@ -3,9 +3,9 @@ Title: Homepage
 components:
   - type: product
     productImage: /img/book-cover.png
-    productName: Start Learning How To Code [Ebook | PDF] 40% OFF with code BF40
-    productDescription: Understand what coding is, why you should learn it and how
-      to achieve your goals faster.
+    productName: Start Learning How To Code [Ebook | PDF]
+    productDescription: 40% OFF with code BF40 ! Understand what coding is, why you
+      should learn it and how to achieve your goals faster.
     productButtonText: Buy Now
     productButtonLink: https://peterpandev.gumroad.com/l/start-learning-how-to-code/BF40
     productOldPrice: €9.99
