@@ -2,6 +2,15 @@
 Title: Homepage
 components:
   - type: product
+    productImage: /img/book-cover.png
+    productName: Start Learning How To Code [Ebook | PDF] 40% OFF with code BF40
+    productDescription: Understand what coding is, why you should learn it and how
+      to achieve your goals faster.
+    productButtonText: Buy Now
+    productButtonLink: https://peterpandev.gumroad.com/l/start-learning-how-to-code/BF40
+    productOldPrice: "9.99"
+    productNewPrice: "5.99"
+  - type: product
     productButtonLink: https://glnk.io/6x6j3/peterpandev
     productName: LARQ Bottle PureVis™ 2
     productDescription: "A self cleaning, self purifying water bottle. Charged by
@@ -44,11 +53,4 @@ components:
     productButtonLink: /the-home-office
   - type: heading
     heading: My Products
-  - type: product
-    productImage: /img/book-cover.png
-    productName: Start Learning How To Code [Ebook | PDF]
-    productDescription: Understand what coding is, why you should learn it and how
-      to achieve your goals faster.
-    productButtonText: Read more
-    productButtonLink: https://peterpandev.gumroad.com/l/start-learning-how-to-code
 ---
