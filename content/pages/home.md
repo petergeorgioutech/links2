@@ -8,8 +8,8 @@ components:
       to achieve your goals faster.
     productButtonText: Buy Now
     productButtonLink: https://peterpandev.gumroad.com/l/start-learning-how-to-code/BF40
-    productOldPrice: "9.99"
-    productNewPrice: "5.99"
+    productOldPrice: €9.99
+    productNewPrice: €5.99
   - type: product
     productButtonLink: https://glnk.io/6x6j3/peterpandev
     productName: LARQ Bottle PureVis™ 2
