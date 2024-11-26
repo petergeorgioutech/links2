@@ -51,6 +51,4 @@ components:
     productImage: /img/home-office.jpg
     productButtonText: View list of items
     productButtonLink: /the-home-office
-  - type: heading
-    heading: My Products
 ---
